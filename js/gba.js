@@ -78,6 +78,7 @@ GameBoyAdvance.prototype.setCanvas = function(canvas) {
 	var self = this;
 	if (canvas.offsetWidth != 240 || canvas.offsetHeight != 160) {
 		this.indirectCanvas = document.createElement("canvas");
+		// 游戏的尺寸是 240x160
 		this.indirectCanvas.setAttribute("height", "160");
 		this.indirectCanvas.setAttribute("width", "240");
 		this.targetCanvas = canvas;
