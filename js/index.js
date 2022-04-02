@@ -49,6 +49,12 @@ var gba;
 				var dead = document.getElementById('controls');
 				dead.parentElement.removeChild(dead);
 			}
+			// let roomPath = 'http://127.0.0.1:5500/a.gba';
+			// loadRom(roomPath, function(rom){
+			// 	console.log(rom);
+			// 	gba.setRom(rom);
+			// 	gba.runStable();
+			// })
 		}
 
 		function fadeOut(id, nextId, kill) {

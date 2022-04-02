@@ -1,0 +1,11 @@
+{
+  "name": "gbajs",
+  "version": "1.0.0",
+  "description": "GBA.js\r ======\r **Version 1.1-git — Copyright © 2012 – 2013 Jeffrey Pfau**",
+  "main": "gba.import.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
